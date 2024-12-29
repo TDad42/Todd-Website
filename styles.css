@@ -1,0 +1,12 @@
+body {
+  background: #111;
+  color: #fff;
+  font-family: Arial, sans-serif; /* or your chosen fonts */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #d4af37; /* gold accent */
+  font-family: "Montserrat", sans-serif;
+}
