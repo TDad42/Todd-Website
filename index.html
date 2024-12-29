@@ -1,13 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="css/styles.css" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Todd Anderson – Lead Trumpet</title>
+  <!-- Link to your CSS -->
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>Hello from Todd!</h1>
-  <p>This is my new custom website.</p>
+
+  <!-- HEADER / NAV (Optional) -->
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Todd Anderson</h1>
+      <!-- If you want a nav menu, uncomment below:
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Media</a></li>
+          <li><a href="#">Bio & Credits</a></li>
+          <li><a href="#">Arrangements</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      -->
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-image">
+      <!-- Your headshot -->
+      <img src="images/ToddHeadshot.jpg" alt="Todd Anderson Headshot">
+    </div>
+    <div class="hero-content">
+      <h2>Todd Anderson</h2>
+      <h3>Lead Trumpet | Broadway & Production Shows</h3>
+      <p>
+        Bringing a consistent, polished sound to every performance—from
+        Broadway tours to high-energy cruise ship productions.
+      </p>
+      <!-- Main "money-maker" reel (live from ships) -->
+      <div class="video-embed">
+        <iframe 
+          src="https://www.youtube.com/embed/JtvBbeq_OZw"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE SECTION -->
+  <section class="container timeline-section">
+    <h2 class="section-title">Performance Timeline</h2>
+    <p class="timeline-intro">
+      Explore Todd’s recent and past contracts in a vertical timeline.  
+      Click any video to watch him in action.
+    </p>
+
+    <!-- MOST RECENT FINISHED CONTRACTS (TOP) -->
+
+    <!-- Elf The Musical -->
+    <div class="timeline-item">
+      <h3>Elf The Musical (National Tour)</h3>
+      <div class="timeline-dates">October 2024 – December 2024</div>
+      <img 
+        class="timeline-logo" 
+        src="images/ELF_NewLogo_Final_RGB.png" 
+        alt="Elf The Musical logo" 
+      />
+      <p>Lead trumpet for this festive Broadway-style tour—bringing consistent, high-energy horn lines to the holiday spirit.</p>
+      <div class="timeline-video">
+        <iframe 
+          src="https://www.youtube.com/embed/TldBluNJ99E"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+
+    <!-- Jersey Boys 2024 (Norwegian Bliss) -->
+    <div class="timeline-item">
+      <h3>Jersey Boys (Norwegian Bliss)</h3>
+      <div class="timeline-dates">March 2024 – October 2024</div>
+      <img 
+        class="timeline-logo" 
+        src="images/jerseyboys2-1.jpg" 
+        alt="Jersey Boys logo" 
+      />
+      <p>Headlined the horn section for the iconic Frankie Valli & Four Seasons hits on board Norwegian Bliss.</p>
+      <div class="timeline-video">
+        <iframe 
+          src="https://www.youtube.com/embed/Dcc99i0yEjY"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+
+    <!-- Norwegian Pearl -->
+    <div class="timeline-item">
+      <h3>Norwegian Pearl</h3>
+      <div class="timeline-dates">July 2023 – January 2024</div>
+      <p>Lead trumpet and horn duo performer for production shows and guest entertainers.</p>
+      <div class="timeline-video">
+        <iframe
+          src="https://www.youtube.com/embed/0X2997d2cBA"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+
+    <!-- Norwegian Dawn -->
+    <div class="timeline-item">
+      <h3>Norwegian Dawn</h3>
+      <div class="timeline-dates">April 2023 – June 2023</div>
+      <p>Provided top-tier horn parts for a variety of production and cabaret-style shows.</p>
+      <div class="timeline-video">
+        <iframe
+          src="https://www.youtube.com/embed/olQyb_lqSOQ"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+
+    <!-- Celebrity Summit -->
+    <div class="timeline-item">
+      <h3>Celebrity Summit</h3>
+      <div class="timeline-dates">July 2022 – January 2023</div>
+      <p>Six-month contract covering a wide range of musical styles—from jazz standards to pop hits.</p>
+      <div class="timeline-video">
+        <iframe
+          src="https://www.youtube.com/embed/0-dQE454MYk"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+
+    <!-- Celebrity Millennium -->
+    <div class="timeline-item">
+      <h3>Celebrity Millennium</h3>
+      <div class="timeline-dates">October 2021 – April 2022</div>
+      <p>Joined the show band as lead trumpet, ensuring consistent high-note precision and solid section blending.</p>
+      <div class="timeline-video">
+        <iframe
+          src="https://www.youtube.com/embed/cu8tYBg7fXM"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+
+    <!-- FUTURE CONTRACTS (AT THE BOTTOM or COLLAPSIBLE) -->
+    <div class="timeline-item future">
+      <h3>Oceania Vista</h3>
+      <div class="timeline-dates">January 2025 – February 2025</div>
+      <p><em>Coming Soon! Check back for updates and show clips after the contract begins.</em></p>
+    </div>
+    <div class="timeline-item future">
+      <h3>Jersey Boys (Norwegian Bliss)</h3>
+      <div class="timeline-dates">March 2025 – October 2025</div>
+      <img 
+        class="timeline-logo" 
+        src="images/jerseyboys2-1.jpg" 
+        alt="Jersey Boys logo" 
+      />
+      <p><em>Coming Soon! This run will bring back the classic Four Seasons hits—stay tuned for performance videos.</em></p>
+    </div>
+  </section>
+
+  <!-- SHORT BIO SNIPPET -->
+  <section class="bio-snippet container">
+    <h2>About Todd</h2>
+    <p>
+      Todd Anderson is a lead trumpet player specializing in musical theater, 
+      production shows, and similar stage shows. With experience on Broadway-style 
+      tours (including <em>Elf The Musical</em> and <em>Jersey Boys</em>) as well as 
+      multiple cruise ship contracts, Todd delivers a consistent, polished sound 
+      tailored to each performance. Whether playing classic jazz tunes or contemporary 
+      pop hits, Todd takes a reliable, no-nonsense approach on stage—always ready to 
+      provide the right blend of power and finesse for any show.
+    </p>
+    <!-- If you create a separate bio.html page, you could link to it here:
+    <p><a href="bio.html">Read Full Bio & Credits &raquo;</a></p>
+    -->
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        &copy; <span id="year"></span> Todd Anderson | 
+        <a href="#" style="color:#d4af37;">Contact Me</a> 
+        <!-- Link to a separate contact.html if desired -->
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Simple script to update copyright year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
